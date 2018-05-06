@@ -1,0 +1,18 @@
+/*******************************************************************************
+* Copyright (c) KONINKLIJKE PHILIPS N.V., 2015
+* All rights are reserved. Reproduction in whole or in part is prohibited 
+* without the prior written consent of the copyright holder.
+*******************************************************************************/
+
+@font-face {
+  font-family: 'CentraleSans XLight';
+  src: url('CentraleSans-XLightItalic.eot'); /* IE9 Compat Modes */
+  src: url('CentraleSans-XLightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CentraleSans-XLightItalic.woff') format('woff'), /* Modern Browsers */
+       url('CentraleSans-XLightItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CentraleSans-XLightItalic.svg#280be28bc7e8ac52003d38d0d68c01ca') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  200;
+}
+

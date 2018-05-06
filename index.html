@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<body>
+  <head> 
+    <link href="css/style.css"rel="stylesheet" />
+    <link href="css/centrale-sans.css"rel="stylesheet" />
+
+    <script src="js/libs/colorbrewer/colorbrewer.js"></script>
+    <script src="js/libs/lodash/lodash.core.js"></script>
+    <script src="js/libs/d3/d3.min.js"></script>
+    <script src="js/libs/d3/queue.v1.min.js"></script>
+    <script src="js/libs/d3/topojson.v1.min.js"></script>
+
+    <script src="js/philips/init.js"></script>
+    <script src="js/philips/StateViewHandler.js"></script>
+    <script src="js/philips/D3Logic.js"></script>
+    <script src="js/philips/Repository.js"></script>
+    <script src="js/philips/GeoTopoMap.js"></script>
+    <script src="js/philips/GeoBubbleGraph.js"></script>
+    <script src="js/philips/AxisBubbleGraph.js"></script>
+    <script src="js/philips/AxisRelationGraph.js"></script>
+    <script src="js/philips/CirclePack.js"></script>
+    <script src="js/philips/Legenda.js"></script>
+
+    
+
+
+  </head>
+  <div id="tooltip-container"></div>
+  <div id="main-container">
+    <div id="d3-legenda"></div>
+    <div id="d3-container"></div>
+  </div>
+  <script>
+
+      var PHILIPS = PHILIPS || {};
+
+      var execute = function () {
+        console.log("execute")
+        init();
+
+      };
+
+      if ( !!(window.addEventListener) )
+      window.addEventListener("DOMContentLoaded", execute)
+      else // MSIE
+      window.attachEvent("onload", execute)
+      
+
+    </script>
+  </body>
+</html>
